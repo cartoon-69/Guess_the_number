@@ -50,13 +50,13 @@ int main() // this is the main function where the game loop is implemented. It h
 
     while (1) // infinite loop to keep the game running until the user decides to exit.
     {
-        clearScreen();
-        showTitle();
+        clearScreen(); // clears the console screen for a clean interface.
+        showTitle(); // displays the game title and welcome message.
 
-        printf("1. Play Game\n");
-        printf("2. Exit\n");
-        printf("Enter choice: ");
-        scanf("%d", &choice);
+        printf("1. Play Game\n"); // displays the menu options for the user to choose from.
+        printf("2. Exit\n"); // option to exit the game.
+        printf("Enter choice: "); // prompts the user to enter their choice.
+        scanf("%d", &choice); // reads the user's choice from the input.
 
         if (choice == 2)
         {

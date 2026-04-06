@@ -171,7 +171,7 @@ game.exe
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Shanto**
 
 ---
 

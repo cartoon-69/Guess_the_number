@@ -43,6 +43,7 @@ void loading()
     printf("\n");
 }
 
+
 int main()
 {
     int choice;
@@ -167,6 +168,7 @@ int main()
                 setColor(7);
                 printf("Attempts left: %d\n", max_Attempts - attempts);
             }
+
             end = time(0);
             time_taken = difftime(end, start);
             if (guess != number)
@@ -175,6 +177,7 @@ int main()
                 printf("\nGame Over! Number was %d\n", number);
                 setColor(7);
             }
+            
             printf("\n Time taken: %.2f seconds\n", time_taken);
             printf("\n Guess History: ");
             for (int j = 0; j < i; j++)

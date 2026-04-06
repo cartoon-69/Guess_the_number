@@ -48,7 +48,7 @@ int main() // this is the main function where the game loop is implemented. It h
 {
     int choice;
 
-    while (1)
+    while (1) // infinite loop to keep the game running until the user decides to exit.
     {
         clearScreen();
         showTitle();

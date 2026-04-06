@@ -58,7 +58,7 @@ int main() // this is the main function where the game loop is implemented. It h
         printf("Enter choice: "); // prompts the user to enter their choice.
         scanf("%d", &choice); // reads the user's choice from the input.
 
-        if (choice == 2)
+        if (choice == 2) // if the user chooses to exit, the program will display a goodbye message and terminate.
         {
             printf("Good bye!\n");
             return 0;

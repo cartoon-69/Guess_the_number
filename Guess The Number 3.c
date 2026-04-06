@@ -44,7 +44,7 @@ void loading()
 }
 
 
-int main()
+int main() // this is the main function where the game loop is implemented. It handles the menu, game logic, and user interactions.
 {
     int choice;
 
@@ -177,7 +177,7 @@ int main()
                 printf("\nGame Over! Number was %d\n", number);
                 setColor(7);
             }
-            
+
             printf("\n Time taken: %.2f seconds\n", time_taken);
             printf("\n Guess History: ");
             for (int j = 0; j < i; j++)
